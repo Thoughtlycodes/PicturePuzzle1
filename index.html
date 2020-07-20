@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Move one DIV element inside another.</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="puzzle.css">
+</head>
+<body>
+  <div class="headingOfPuzzle">
+  <h3 class="heading">Developed by : Thoughtlycodes</h3>	 
+  <h1 class="heading">Picture Puzzle</h1>
+  <h5 class="heading">Level 1</h5>
+</div>
+<div class="puzzle">
+  <table class="container-fluid puzzle-table">
+
+    <tr class="row">
+      <td class="div-box one-box-image" id="one">
+        
+          <img  class="image eight-box-image" src="8.jpg" onclick="oneMove(this)" >
+        
+      </td>
+      <td class="div-box two-box-image" id="two">
+        
+        <img  class="image five-box-image" src="5.jpg" onclick="oneMove(this)" >
+        
+      </td>
+      <td class="div-box three-box-image" id="three">
+        <img  class="image one-box-image" src="1.jpg" onclick="oneMove(this)" >
+      </td>
+    </tr>
+
+    <tr class="row">
+      <td class="div-box four-box-image" id="four">
+        
+          
+          <img  class="image seven-box-image" src="7.jpg" onclick="oneMove(this)" >
+      </td>
+      <td class="div-box five-box-image" id="five">
+        
+          
+          <img  class="image six-box-image" src="6.jpg" onclick="oneMove(this)" >
+      </td>
+      <td class="div-box six-box-image" id="six">
+        
+          
+          <img  class="image four-box-image" src="4.jpg" onclick="oneMove(this)" >
+      </td>
+    </tr>
+
+    <tr class="row">
+      <td class="div-box seven-box-image" id="seven">
+        
+          
+          <img  class="image two-box-image" src="2.jpg" onclick="oneMove(this)" >
+      </td>
+      <td class="div-box eight-box-image" id="eight">
+        
+          
+          <img  class="image three-box-image" src="3.jpg" onclick="oneMove(this)" >
+      </td>
+      <td class="div-box nine-box-image" id="nine">
+        
+          
+          <img id="lastImage" class="image nine-box-image" src="9.jpg" " >
+      </td>
+    </tr>
+
+  </table>
+</div>
+
+
+
+<div class="original-image">
+  <img class="original-image-img" src="thor.png" alt="thor">
+</div>
+ 
+    
+ 
+    
+    
+    
+
+
+    <script src="https://code.jquery.com/jquery-git.js"></script>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	  </body>
+	  </html>

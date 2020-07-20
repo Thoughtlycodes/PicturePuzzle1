@@ -1,0 +1,147 @@
+@media only screen and (min-width: 636px) {
+.div-box{
+
+    width: 11.811rem;
+    height: 11.811rem;
+    background-color:#5eacb9;
+
+}
+
+.image{
+    width: 5cm;
+    height: 11.811rem;
+    border-width: 2px;
+    border-style: double;
+    border-color: black;
+    
+}
+.puzzle-table{
+    margin-left: 10%;
+}
+.puzzle{
+    float: left;
+    
+    width: 50%;
+    background-color: #d3dbff;
+}
+.original-image{
+    float: left;
+    /* margin-left: 10%; */
+    width:50%;
+    background-color: #d3dbff;
+}
+.original-image-img{
+    margin-left: 10%;
+    height: 35.433rem;
+    width: 35.433rem;
+}
+#lastImage{
+    display: none;
+}
+.puzzle-original{
+    display: none;
+}
+.headingOfPuzzle{
+    text-align: center;
+    /* margin-right: 20%; */
+}
+}
+
+
+
+@media only screen and (max-width: 635px) {
+    .div-box{
+        width: 11.811rem;
+        height: 11.811rem;
+        background-color:#789fc4;
+
+        
+    }
+    .image{
+        width: 11.811rem;
+        height: 11.811rem;
+        border-width: 2px;
+        border-style: double;
+        border-color: black;
+        
+    }
+    .puzzle-table{
+        /* margin-left: 10%; */
+    }
+    .puzzle{
+        /* height: 35.433rem; */
+        margin-bottom: 30px;
+        width: 35.433rem;
+        background-color: #d3dbff;
+        text-align: center;
+    }
+    .original-image{
+        /* margin-left: 10%; */
+        width:100%;
+        background-color: #d3dbff;
+        text-align: center;
+    }
+    .original-image-img{
+        height: 35.433rem;
+        width: 35.433rem;
+    }
+    #lastImage{
+        display: none;
+    }
+    .puzzle-original{
+        display: none;
+    }
+    .headingOfPuzzle{
+        text-align: center;
+        /* margin-right: 20%; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 300px) {
+    .div-box{
+        width: 3.811rem;
+        height: 3.811rem;
+        
+    }
+    .image{
+        width: 3.811rem;
+        height: 3.811rem;
+        border-width: 2px;
+        border-style: double;
+        border-color: black;
+        
+    }
+} */
