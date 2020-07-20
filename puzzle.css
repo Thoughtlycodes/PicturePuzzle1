@@ -1,4 +1,7 @@
 @media only screen and (min-width: 636px) {
+    body{
+        margin: 0;
+    }
 .div-box{
 
     width: 11.811rem;
@@ -50,16 +53,19 @@
 
 
 @media only screen and (max-width: 635px) {
+    body{
+        margin: 0;
+    }
     .div-box{
-        width: 11.811rem;
-        height: 11.811rem;
+        width: 33.33%;
+        height: auto;
         background-color:#789fc4;
 
         
     }
     .image{
-        width: 11.811rem;
-        height: 11.811rem;
+        width: 100%;
+        height: auto;
         border-width: 2px;
         border-style: double;
         border-color: black;
@@ -67,23 +73,24 @@
     }
     .puzzle-table{
         /* margin-left: 10%; */
+        width: 100%;
     }
     .puzzle{
         /* height: 35.433rem; */
         margin-bottom: 30px;
-        width: 35.433rem;
+        width: 100%;
         background-color: #d3dbff;
         text-align: center;
     }
     .original-image{
-        /* margin-left: 10%; */
+        margin-left: 2%;
         width:100%;
         background-color: #d3dbff;
-        text-align: center;
+        /* text-align: center; */
     }
     .original-image-img{
-        height: 35.433rem;
-        width: 35.433rem;
+        height: auto;
+        width: 100%;
     }
     #lastImage{
         display: none;
@@ -92,8 +99,9 @@
         display: none;
     }
     .headingOfPuzzle{
+        width: 100%;
         text-align: center;
-        /* margin-right: 20%; */
+        margin-left: 2%;
     }
 }
 
