@@ -1,3 +1,4 @@
+var imageArray = ["1","2","3"];
 var one=1;
 var two=1;
 var three=1;
@@ -8,6 +9,17 @@ var sv=1;
 var eg=1;
 var ni=0;
 var s=1;
+var randomNumber = Math.floor(Math.random()*3);
+document.querySelectorAll("img")[9].setAttribute("src",imageArray[randomNumber]+".jpg");
+
+document.querySelectorAll("img")[0].setAttribute("src",imageArray[randomNumber]+".8.jpg");
+document.querySelectorAll("img")[1].setAttribute("src",imageArray[randomNumber]+".5.jpg");
+document.querySelectorAll("img")[2].setAttribute("src",imageArray[randomNumber]+".1.jpg");
+document.querySelectorAll("img")[3].setAttribute("src",imageArray[randomNumber]+".7.jpg");
+document.querySelectorAll("img")[4].setAttribute("src",imageArray[randomNumber]+".6.jpg");
+document.querySelectorAll("img")[5].setAttribute("src",imageArray[randomNumber]+".4.jpg");
+document.querySelectorAll("img")[6].setAttribute("src",imageArray[randomNumber]+".2.jpg");
+document.querySelectorAll("img")[7].setAttribute("src",imageArray[randomNumber]+".3.jpg");
 
 function oneMove(elem){
   
@@ -209,6 +221,7 @@ function oneMove(elem){
     
       if ($('.one-box-image','.one-box-image').length == 1 && $('.two-box-image','.two-box-image').length == 1 && $('.three-box-image','.three-box-image').length == 1  && $('.four-box-image','.four-box-image').length == 1 && $('.five-box-image','.five-box-image').length == 1 && $('.six-box-image','.six-box-image').length == 1 && $('.seven-box-image','.seven-box-image').length == 1 && $('.eight-box-image','.eight-box-image').length == 1) { 
         alert("Success"); 
+        document.querySelectorAll("img")[8].setAttribute("src",imageArray[randomNumber]+".9.jpg");
          document.getElementById("lastImage").style.display = "block";
          ni=1;
          s=0;
