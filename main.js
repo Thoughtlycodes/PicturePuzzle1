@@ -1,4 +1,4 @@
-var imageArray = ["1","2","3"];
+var imageArray = ["1","2","3","4","5","6"];
 var one=1;
 var two=1;
 var three=1;
@@ -9,7 +9,7 @@ var sv=1;
 var eg=1;
 var ni=0;
 var s=1;
-var randomNumber = Math.floor(Math.random()*3);
+var randomNumber = Math.floor(Math.random()*6);
 document.querySelectorAll("img")[9].setAttribute("src",imageArray[randomNumber]+".jpg");
 
 document.querySelectorAll("img")[0].setAttribute("src",imageArray[randomNumber]+".8.jpg");
