@@ -201,11 +201,7 @@ function oneMove(elem){
      if(sx!=1){
         $(elem).detach().appendTo('#six');
         sx=1;
-        if(three!=1){
-          $(elem).detach().appendTo('#three');
-          three=three+1;
-          
-        }
+
         
       }
       else if(eg!=1)
@@ -215,7 +211,7 @@ function oneMove(elem){
       }
       else{
         alert('invalid move!')
-        fi=1;
+        ni=1;
       }
       } 
     
